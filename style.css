@@ -1,0 +1,65 @@
+
+
+   
+
+.header > .navbar{
+
+    padding: 10px;
+    background-color: #ECECEC !important;
+    
+}
+
+.logo{
+    width: 60%;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+}
+.bt{
+    background-color: #ECECEC;
+    border: none;
+    
+}
+.bt > h4{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007E85;
+}
+.bt:hover{
+    background-color: #ECECEC;
+    color: #007E85;
+    
+}
+
+.bt1{
+    background-color:#007E85;
+    border: none;
+    color: white;
+    
+}
+.bt1 > h4{
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bt1:hover{
+    background-color: #007E85;
+}
+.bt1:focus{
+    background-color: #007E85 !important;
+}
+.bt:focus{
+    background-color: #ECECEC !important;
+}
+.nav-link{
+    color: black !important;
+    transition: 1s;
+}
+.nav-link:hover{
+   transform: scale(1.1);
+}
